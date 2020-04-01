@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer button测试</title>
+    <link rel="stylesheet" href="./talk.css">
+</head>
+<body>
+    <!-- <input type="button" name="" id="popup" value="弹出对话框"> -->
+    <!-- <div class="notepad-dlg-goto">
+        <div class="dialogbox">
+            <div class="titlebar">
+                <p class="title">转到指定行</p>
+                <span class="close-btn"></span>
+            </div>
+            <div class="main">
+                <label>行号(L):</label>
+                <br>
+                <input class="txt-line-num" type="text" autofocus>
+                <br>
+                <input class="btn-goto" type="button" value="转到">
+                <input class="btn-cancel" type="button" value="取消">
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- <hr>
+    <div id="main"></div> -->
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./talk.js"></script>
+    <script>
+        $(function(){
+            var $btnDlg=$('#popup');
+            $btnDlg.click(function(){
+                $talkGoto.show({
+                num:6,
+                title:'发送验证码',
+                onClick:function(){
+                    
+                }
+            });
+            })
+            
+        });
+    </script>
+</body>
+
+</html>

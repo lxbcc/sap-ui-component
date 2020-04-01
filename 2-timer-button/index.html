@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer button测试</title>
+    <link rel="stylesheet" href="./timer-button.css">
+</head>
+<body>
+    <input type="button" name="" id="add" value="添加定时器">
+    <hr>
+    <div id="main"></div>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./timer-button.js"></script>
+    <script>
+        $(function(){
+            
+            $timerButton.show({
+                num:60,
+                title:'发送验证码',
+                onClick:function(){
+                    
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
